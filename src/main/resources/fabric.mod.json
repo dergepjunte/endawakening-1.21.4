@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "endawakening",
+	"version": "${version}",
+	"name": "EndAwakening",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://villagercheatsheet.netlify.app/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/endawakening/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"ja.endawakening.EndAwakening"
+		],
+		"fabric-datagen": [
+			"ja.endawakening.EndAwakeningDataGenerator"
+		],
+		"client": [
+			"ja.endawakening.EndAwakeningClient"
+		]
+	},
+	"mixins": [
+		"endawakening.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
