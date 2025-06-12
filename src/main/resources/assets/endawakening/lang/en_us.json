@@ -1,4 +1,8 @@
 {
+  "item.endawakening.void_crystal": "Void Crystal",
+
   "item.endawakening.void_stone": "Void Stone",
-  "block.endawakening.void_stone": "Void Stone"
+  "block.endawakening.void_stone": "Void Stone",
+
+  "itemgroup.endawakening.end_awakening_items": "Items of End Awakening"
 }

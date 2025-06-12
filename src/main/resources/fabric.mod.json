@@ -23,6 +23,9 @@
 		],
 		"client": [
 			"ja.endawakening.EndAwakeningClient"
+		],
+		"server": [
+			"ja.endawakening.EndAwakening"
 		]
 	},
 	"mixins": [
